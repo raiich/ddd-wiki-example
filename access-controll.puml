@@ -1,0 +1,50 @@
+@startuml
+
+package domain.model.edit {
+  class Editor {
+    user_id: str
+  }
+}
+package domain.model.view {
+  class Viewer {
+    user_id: str
+  }
+}
+
+class domain.model.edit.AccessControlledArticleRepository
+class domain.model.view.AccessControlledArticleRepository
+
+class domain.model.edit.ArticleRepository
+class domain.model.view.ArticleRepository
+
+class domain.model.edit.Article
+class domain.model.view.Article
+
+domain.model.edit.AccessControlledArticleRepository --> domain.model.edit.ArticleRepository : proxy
+domain.model.view.AccessControlledArticleRepository --> domain.model.view.ArticleRepository : proxy
+
+Editor --> domain.model.edit.AccessControlledArticleRepository : access to Article
+Viewer --> domain.model.view.AccessControlledArticleRepository : access to Article
+
+domain.model.edit.ArticleRepository o-- domain.model.edit.Article
+domain.model.view.ArticleRepository o-- domain.model.view.Article
+
+package domain.model.user {
+  class User {
+    id: str
+  }
+
+  class Permission {
+    uri: str
+  }
+
+  User .. Permission
+}
+
+Editor . User
+Viewer . User
+
+domain.model.edit.AccessControlledArticleRepository .> Permission : check
+domain.model.view.AccessControlledArticleRepository .> Permission : check
+
+@enduml

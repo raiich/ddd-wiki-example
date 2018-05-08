@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="331px" preserveAspectRatio="none" style="width:425px;height:331px;" version="1.1" viewBox="0 0 425 331" width="425px" zoomAndPan="magnify"><defs><filter height="300%" id="flftu64ycqgdx" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--entity editor--><ellipse cx="86" cy="18" fill="#FEFECE" filter="url(#flftu64ycqgdx)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/><path d="M86,26 L86,53 M73,34 L99,34 M86,53 L73,68 M86,53 L99,68 " fill="#FEFECE" filter="url(#flftu64ycqgdx)" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="41" x="65.5" y="88.5352">Editor</text><!--entity viewer--><ellipse cx="344" cy="18" fill="#FEFECE" filter="url(#flftu64ycqgdx)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/><path d="M344,26 L344,53 M331,34 L357,34 M344,53 L331,68 M344,53 L357,68 " fill="#FEFECE" filter="url(#flftu64ycqgdx)" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="46" x="321" y="88.5352">Viewer</text><!--entity md--><rect fill="#FEFECE" filter="url(#flftu64ycqgdx)" height="39.4883" style="stroke: #000000; stroke-width: 1.5;" width="160" x="6" y="168"/><polygon fill="#FEFECE" points="149,173,149,187,161,187,161,179,155,173,149,173" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="155" x2="155" y1="173" y2="179"/><line style="stroke: #000000; stroke-width: 1.5;" x1="161" x2="155" y1="179" y2="179"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="130" x="16" y="194.5352">Article (Markdown)</text><!--entity html--><rect fill="#FEFECE" filter="url(#flftu64ycqgdx)" height="39.4883" style="stroke: #000000; stroke-width: 1.5;" width="126" x="281" y="168"/><polygon fill="#FEFECE" points="390,173,390,187,402,187,402,179,396,173,390,173" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="396" x2="396" y1="173" y2="179"/><line style="stroke: #000000; stroke-width: 1.5;" x1="402" x2="396" y1="179" y2="179"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="96" x="291" y="194.5352">Article (HTML)</text><!--entity Article.Issued--><rect fill="#FEFECE" filter="url(#flftu64ycqgdx)" height="36.4883" style="stroke: #A80036; stroke-width: 1.5;" width="112" x="30" y="284"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="92" x="40" y="307.5352">Article.Issued</text><!--entity ArticleConverter--><rect fill="#FEFECE" filter="url(#flftu64ycqgdx)" height="36.4883" style="stroke: #A80036; stroke-width: 1.5;" width="132" x="278" y="284"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="112" x="288" y="307.5352">ArticleConverter</text><!--link editor to md--><path d="M86,91.304 C86,114.575 86,142.933 86,162.616 " fill="none" id="editor-md" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="86,167.675,90,158.675,86,162.675,82,158.675,86,167.675" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="157" x="87" y="134.5684">create/update Markdown</text><!--link viewer to html--><path d="M344,91.304 C344,114.575 344,142.933 344,162.616 " fill="none" id="viewer-html" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="344,167.675,348,158.675,344,162.675,340,158.675,344,167.675" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="68" x="345" y="134.5684">view HTML</text><!--link md to Article.Issued--><path d="M86,207.077 C86,226.7533 86,257.8115 86,278.773 " fill="none" id="md-Article.Issued" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="86,283.8716,90,274.8716,86,278.8716,82,274.8716,86,283.8716" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="85" x="87" y="250.5684">publish event</text><!--link Article.Issued to ArticleConverter--><path d="M147.516,302 C186.774,302 237.638,302 277.778,302 " fill="none" id="Article.Issued-ArticleConverter" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="142.3,302,151.3,306,147.3,302,151.3,298,142.3,302" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="99" x="160.5" y="295.5684">subscribe event</text><!--link html to ArticleConverter--><path d="M344,212.312 C344,233.7628 344,264.7757 344,283.8716 " fill="none" id="html-ArticleConverter" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="344,207.077,340,216.077,344,212.077,348,216.077,344,207.077" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="54" x="345" y="250.5684">generate</text><!--
+@startuml
+
+actor editor as "Editor"
+actor viewer as "Viewer"
+
+artifact md as "Article (Markdown)"
+artifact html as "Article (HTML)"
+
+editor - -> md : "create/update Markdown"
+viewer - -> html : "view HTML"
+
+agent Article.Issued
+agent ArticleConverter
+md - -> Article.Issued : publish event
+
+Article.Issued <- ArticleConverter : subscribe event
+html <- - ArticleConverter : generate
+
+@enduml
+
+PlantUML version 1.2017.15(Tue Jul 04 01:45:34 JST 2017)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 1.8.0_152-release-915-b12
+Operating System: Mac OS X
+OS Version: 10.13.4
+Default Encoding: UTF-8
+Language: ja
+Country: JP
+--></g></svg>

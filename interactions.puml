@@ -1,0 +1,19 @@
+@startuml
+
+actor editor as "Editor"
+actor viewer as "Viewer"
+
+artifact md as "Article (Markdown)"
+artifact html as "Article (HTML)"
+
+editor --> md : "create/update Markdown"
+viewer --> html : "view HTML"
+
+agent Article.Issued
+agent ArticleConverter
+md --> Article.Issued : publish event
+
+Article.Issued <- ArticleConverter : subscribe event
+html <-- ArticleConverter : generate
+
+@enduml
